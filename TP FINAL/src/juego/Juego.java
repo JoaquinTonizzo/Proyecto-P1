@@ -41,7 +41,6 @@ public class Juego extends InterfaceJuego
 	public void tick() {	
 		//FONDO
 		fondo.dibujarse(entorno);
-		System.out.println(tick);
 		if (!juegoIniciado) { //se usa para la pantalla de inicio
 			if (entorno.sePresiono(entorno.TECLA_ENTER)) {
 				juegoIniciado = true; 
